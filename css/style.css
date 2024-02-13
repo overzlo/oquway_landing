@@ -13,9 +13,7 @@
 
 
 .intro {
-    display: flex;
-    margin: auto;
-    
+   margin: auto;
 }
 .intro_container{
     padding: 100px;
@@ -63,6 +61,110 @@
 .intro_img img{
     width: 100%;
 }
-.intro_img_clouds{
 
+/* features */
+.features{
+    margin-top: 5rem;
+}
+
+.f_title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.f_text{
+    margin-bottom: 20px;
+    color: #9c3aa9;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+
+.f_title h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+}
+
+hr {
+    width: 80%;
+    margin: 30px 0;
+    border: 2px solid #BFE2FF;
+    position: relative;
+    overflow: visible;
+}       
+hr:after {
+    content: "";
+    border: 2px solid #337AB7;
+    position: absolute;
+    width: 20%;
+    top: -2px;
+    animation: anim-hr 5s linear infinite; 
+}
+@keyframes anim-hr {
+    0% {
+        left: -10%;
+    }
+    100% {
+        left: 90%;
+    }
+}
+
+.d38 {
+    width: 2.5em; 
+    height: 2.5em; 
+    margin: 2em 4.5em 4em;
+    border-radius: 100% 0;
+    background: #32336B;
+    box-shadow: -3em 3em #32336B;
+    position: relative;
+    margin-bottom: 5em;
+
+    }
+    .d38:before, 
+    .d38:after {
+    content: "";
+    width: 2.5em; 
+    height: 2.5em; 
+    margin: 1em 3em;
+    border-radius: 0 100%;
+    background: wheat;
+    position: absolute; 
+    left: -6em; 
+    top: -1em;
+    box-shadow: 3em 3em #32336B;
+    transform-origin: 2.75em 2.75em;
+    }
+    .d38:before {
+    transform: rotate(-30deg);
+    }
+    .d38:after {
+    transform: rotate(30deg);
+    }
+
+ 
+
+.f_cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.f_card{
+    display: flex;
+    padding: 30px;
+    width: 350px;
+    height: 360px;
+    border: 1px;
+    border-style:  outset;
+    border-radius: 10px;
+}
+.f_card_text h2{
+    font-family: 'Courier New', Courier, monospace;
+} 
+.f_card_text p {
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #212529;
+}
+.f_card:hover{
+    background-color: #df7bec;
+    opacity: 0.9;
+    transition: 2s;
 }
