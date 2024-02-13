@@ -76,7 +76,7 @@
     margin-bottom: 20px;
     color: #9c3aa9;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .f_title h1{
@@ -167,4 +167,118 @@ hr:after {
     background-color: #df7bec;
     opacity: 0.9;
     transition: 2s;
+}
+
+/* about */
+.about_container{
+    margin-top: 7em;
+    display: flex;
+    justify-content: space-between  ;
+}
+.about_imgs{
+    width: 50%;
+}
+.about_info{
+    width: 50%;
+    padding: 40px;
+}
+.about_title{
+    color: #9c3aa9;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    margin-bottom: 15px;
+
+}
+.about_info h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.about_info p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+} 
+.about_info p:nth-child(4){
+    margin-top: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+}
+.about_imgs img{
+    width: 100%;
+}
+.about_imgs img:nth-child(2){
+    position: absolute;
+    width: 200px;
+    opacity: 0.4;
+}
+.contact_to_us button{
+    margin-top: 1em;
+    border-radius: 10px;
+    height: 100px;
+    padding: 10px;
+    width: 400px;
+    background-color: #52C3EB;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.trust{
+    height: 600px;
+}
+.trust_container{
+    display: flex;
+    align-items: center;
+    background: #0b3241;
+	clip-path: polygon(0% 15%, 100% 0%, 100% 1000%, 0 100%);
+}
+.trust_info{
+    margin-top: 30px;
+    color: #9c3aa9;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+}
+
+.trust_cards{
+    padding-top: 30px;
+    padding-bottom: 3em;
+
+}
+.promo_container{
+    background: #0b3241;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1em;
+    padding-bottom: 10em;
+
+}
+.promo_el{
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 3px 0px;
+    border-radius: 10px;
+
+}
+.promo_el_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.promo_el_info h2{
+    color:#9c3aa9;
+    font-size: 5em;
+    font-style:oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.promo_el_info p{
+    margin-left: 1rem;
+    color:#9c3aa9;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 1.2em;
+
+
 }
